@@ -1,0 +1,7 @@
+version: "3"
+services:
+ movie-scraper:
+  build: .
+  container_name: movie-scraper
+  environment:
+    ENVIRONMENT: DEV

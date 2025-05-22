@@ -1,0 +1,8 @@
+version: "3"
+services:
+ movie-scraper:
+  build: ./movie-scraper
+  container_name: movie-scraper
+  environment:
+    MAX_MOVIES: 10
+  network_mode: host
